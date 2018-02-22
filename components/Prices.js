@@ -7,7 +7,7 @@ export default class Prices extends React.Component {
           <li className="list-group-item" key={this.props.bpi[key].code}>
           Bitcoin rate for {this.props.bpi[key].description} :
           <span className="badge badge-primary">{this.props.bpi[key].code}</span>
-          <strong>{this.props.bpi[key].rate}</strong>Í
+          <strong>{this.props.bpi[key].rate}</strong>
         </li>
       );
     });
