@@ -7,3 +7,7 @@ This is a simple next js application desigend to view bit coin price
 2) npm run dev
 
 open http://localhost:3000 in browser.
+
+Browser renders the application.
+
+![alt text](images/layout.png "Layout")

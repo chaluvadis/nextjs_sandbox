@@ -5,8 +5,8 @@ export default class Prices extends React.Component {
     keys.forEach(key => {
       rows.push(
           <li className="list-group-item" key={this.props.bpi[key].code}>
-          Bitcoin rate for {this.props.bpi[key].description} :
-          <span className="badge badge-primary">{this.props.bpi[key].code}</span>
+          {this.props.bpi[key].description}  &nbsp; 
+          <span className="badge badge-primary">{this.props.bpi[key].code}</span> &nbsp; 
           <strong>{this.props.bpi[key].rate}</strong>
         </li>
       );
